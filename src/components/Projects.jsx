@@ -46,7 +46,7 @@ const Projects = () => {
                 <img src={todo} alt=""/>
                 <div className="name">TODO-List</div>
                 <div className="paragraph">
-                 It's a web app to store your importent notes in your browser. You can create notes in TODO-List webpage and it will remain there even if you reload your page or come back after days.<br /><br /><span>Tech Stack:</span> React-JS, SCSS, HTML, JAVASCRIPT
+                 It's a web app to store your important notes in your browser. You can create notes in TODO-List webpage and it will remain there even if you reload your page or come back after days.<br /><br /><span>Tech Stack:</span> React-JS, SCSS, HTML, JAVASCRIPT
                 </div>
                 <div className="icons">
                   <div className="icon">
@@ -61,7 +61,7 @@ const Projects = () => {
                 <img src={portfolio} alt=""/>
                 <div className="name">Portfolio</div>
                 <div className="paragraph">
-                 This is my new Portfolio which I recently made using React-JS. I have provided a input field in bottom of this website. So, Please feel free to contact me any time and give me feedback about my projects.<br /><br /><span>Tech Stack:</span> React-JS, SCSS, HTML, JAVASCRIPT
+                 This is my new portfolio, which I recently made using React-JS. It is a private repository to protect the code. You can give me feedback about the website and other projects from the contact section that I have provided at the bottom of the website. 
                 </div>
                 <div className="icons">
                   <div className="icon">
