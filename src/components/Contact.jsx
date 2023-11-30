@@ -18,7 +18,7 @@ const Contact = () => {
             <form action="https://formspree.io/f/mzblqopg" method="POST">
                 <input required autoComplete='off' name="name" placeholder='Enter Your Name' type="text" />
                 <input required autoComplete='off' name='email' placeholder='Enter Your Email' type="email" />
-                <input autoComplete='off' name="number" placeholder='Mobile Number(Not required)' type="number" />
+                <input autoComplete='off' name="number" placeholder='Mobile Number(Not necessary)' type="number" />
                 <textarea required placeholder='Enter message' name="message" id="" cols="30" rows="10"></textarea>
                 <button type="submit">Send Message</button>
             </form>
