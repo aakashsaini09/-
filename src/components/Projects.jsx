@@ -65,10 +65,10 @@ const Projects = () => {
                 </div>
                 <div className="icons">
                   <div className="icon">
-                      <i className="fa-solid fa-eye" style={{color: "#ffffff"}}></i>
+                      <a href="https://github.com/aakashsaini09"><i className="fa-solid fa-eye" style={{color: "#ffffff"}}></i></a>
                   </div>
                   <div className="icon">
-                      <i className="fa-brands fa-github" style={{color: "#ffffff"}}></i>
+                      <a href="https://github.com/aakashsaini09"><i className="fa-brands fa-github" style={{color: "#ffffff"}}></i></a>
                   </div>
                 </div>
             </div>
