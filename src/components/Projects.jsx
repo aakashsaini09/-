@@ -53,7 +53,7 @@ const Projects = () => {
                       <a target='_blank' href="https://aakashsaini09.github.io/todo/"><i className="fa-solid fa-eye" style={{color: "#ffffff"}}></i></a>
                   </div>
                   <div className="icon">
-                     <a href="https://github.com/aakashsaini09/todo"><i className="fa-brands fa-github" style={{color: "#ffffff"}}></i></a> 
+                     <a target='_blank' href="https://github.com/aakashsaini09/todo"><i className="fa-brands fa-github" style={{color: "#ffffff"}}></i></a> 
                   </div>
                 </div>
             </div>
@@ -65,10 +65,10 @@ const Projects = () => {
                 </div>
                 <div className="icons">
                   <div className="icon">
-                      <a href="https://github.com/aakashsaini09"><i className="fa-solid fa-eye" style={{color: "#ffffff"}}></i></a>
+                      <a target='_blank' href="https://aakash-saini.netlify.app/"><i className="fa-solid fa-eye" style={{color: "#ffffff"}}></i></a>
                   </div>
                   <div className="icon">
-                      <a href="https://github.com/aakashsaini09"><i className="fa-brands fa-github" style={{color: "#ffffff"}}></i></a>
+                      <a target='_blank' href="https://github.com/aakashsaini09"><i className="fa-brands fa-github" style={{color: "#ffffff"}}></i></a>
                   </div>
                 </div>
             </div>
