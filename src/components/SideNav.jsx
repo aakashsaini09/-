@@ -8,7 +8,7 @@ const SideNav = () => {
           <a href="https://www.linkedin.com/in/-aakashsaini/" target='_blank'><i className="fa-brands fa-linkedin-in" style={{color: "#a600ff"}}></i></a>
         </div>
         <div className="icon mb-3">
-          <a href="https://github.com/" target='_blank'><i className="fa-brands fa-github" style={{color: "#a600ff"}}></i></a>
+          <a href="https://github.com/aakashsaini09" target='_blank'><i className="fa-brands fa-github" style={{color: "#a600ff"}}></i></a>
         </div>
 
         <div className="icon mb-3">
