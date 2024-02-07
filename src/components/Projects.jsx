@@ -7,7 +7,7 @@ import portfolio from '../assets/portfolio.png'
 const Projects = () => {
   return (
     <>
-      <div id="project">
+      <div id="project" >
         <div className="project-header">
           <div className="heading"><span>Projects</span> Section</div>
         </div>
@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className="paragraph">
                   It's a web app to show the weather forecast details using OpenWeather API & here you can search weather details for any city in the world.<br /><br /><span>Tech Stack:</span> HTML, CSS, JAVASCRIPT, BOOTSTRAP.
                 </div>
-                <div className="icons">
+                <div className="icons" >
                   <div className="icon">
                       <a target='_blank' href="https://mausamupdates.netlify.app/"><i className="fa-solid fa-eye" style={{color: "#ffffff"}}></i></a>
                   </div>
@@ -35,10 +35,14 @@ const Projects = () => {
                 </div>
                 <div className="icons">
                   <div className="icon">
-                      <a target='_blank' href="https://aakashsaini09.github.io/tik-tok-tak/"><i className="fa-solid fa-eye" style={{color: "#ffffff"}}></i></a>
+                      <a target='_blank' href="https://aakashsaini09.github.io/tik-tok-tak/">
+                        <i className="fa-solid fa-eye" style={{color: "#ffffff"}}></i>
+                      </a>
                   </div>
                   <div className="icon">
-                      <a target='_blank' href="https://github.com/aakashsaini09/tik-tok-tak"><i className="fa-brands fa-github" style={{color: "#ffffff"}}></i></a>
+                      <a target='_blank' href="https://github.com/aakashsaini09/tik-tok-tak">
+                        <i className="fa-brands fa-github" style={{color: "#ffffff"}}></i>
+                      </a>
                   </div>
                 </div>
             </div>

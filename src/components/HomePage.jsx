@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styles/Home-About.css'
 import Typed from 'typed.js'
-import homeimg from '../assets/home.png'
+import img from '../assets/img2.png'
 import resume from '../assets/Resume.pdf'
 const HomePage = () => {
 
@@ -36,7 +36,7 @@ const HomePage = () => {
       </div>
       
       <div className="homepage-photo">
-        <img data-aos="slide-left" src={homeimg} alt="" />
+        <img data-aos="slide-left" src={img} alt="" />
       </div>
     </div>
   )

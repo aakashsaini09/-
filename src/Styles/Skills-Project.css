@@ -67,10 +67,31 @@
     }
     
     .project-container .icons {
-        font-size: 40px;
         display: flex;
         justify-content: space-around;
-        padding-top: 22px !important;
+        padding-top: 15px !important;
+    }
+
+
+
+
+    
+    .project-container .icons .icon {
+        height: 65px !important;
+        width: 65px !important;
+        border-radius: 50%;
+        border: 1px solid white;
+        overflow: hidden !important;
+    }
+    .project-container .icons .icon a i{
+        /* background-color: peru !important; */
+        display: flex;
+        height: 50px !important;
+        width: 50px !important;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px !important;
+        overflow: hidden;
     }
 }
 
@@ -227,7 +248,8 @@
     font-size: 40px;
     display: flex;
     justify-content: space-around;
-    padding-top: 12px;
+    padding-top: 10px;
+    /* background-color: blueviolet; */
 }
 
 .project-container .icons .icon {
@@ -235,13 +257,12 @@
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 }
-.project-container .icons .icon i{
+.project-container .icons .icon a i{
     font-size: 35px;
 }
 

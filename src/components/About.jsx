@@ -6,7 +6,7 @@ const About = () => {
   const [btnSelect, setbtnSelect] = useState(1)
   const [first, setfirst] = useState(true)
   function functionfun(){
-    if (btnSelect ==1) {
+    if (btnSelect ==1){
       setbtnSelect(2)
     }
     else{
@@ -33,8 +33,8 @@ const About = () => {
         </div>
       )} */}
       <div className='about' id='about' >
-        <p className='headline'>ALL <span className='paragraphinside'>ABOUT</span> ME <div>AND MY<span className='paragraphinside'>EXPERIENCE</span></div></p>
-        <p className='dots'>. . . . .  <i className="fa-solid fa-arrow-down"></i>  . . . . .</p>
+        <p className='headline'>ALL <span className='paragraphinside'>ABOUT</span> ME <div> AND MY<span className='paragraphinside'>EXPERIENCE</span></div></p>
+        <div className='dots'>. . . . .  <i className="fa-solid fa-arrow-down"></i>  . . . . .</div>
         <div className="about-main">
           <div className="about-main-img" data-aos="zoom-in">
             <img src={home} alt="" />
