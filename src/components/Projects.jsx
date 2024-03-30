@@ -31,7 +31,7 @@ const Projects = () => {
             <div className="project-container" data-aos="zoom-in-up">
                 <img className='special-case' src={github} alt="" />
                 <div className="name">Github Profile Search</div>
-                <div className="paragraph">Its a simple react application to search Github profile and view some basic details. It uses Github API and fetch profile data from github.
+                <div className="paragraph">Its a simple react application to search Github profile and view some basic details. It uses Github API and fetch profile data from github.<br /><br /><span>Tech Stack:</span>JAVASCRIPT, REACT-JS, TAILWIND-CSS.
                  </div>
                 <div className="icons">
                   <div className="icon">
