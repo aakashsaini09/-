@@ -4,6 +4,7 @@ import tiktok from '../assets/tiktok.png'
 import todo from '../assets/todo.png'
 import weather from '../assets/weather.png'
 import portfolio from '../assets/portfolio.png'
+import github from '../assets/Screenshot 2024-03-30 102452.png'
 const Projects = () => {
   return (
     <>
@@ -24,6 +25,24 @@ const Projects = () => {
                   </div>
                   <div className="icon">
                       <a target='_blank' href="https://github.com/aakashsaini09/mausam"><i className="fa-brands fa-github" style={{color: "#ffffff"}}></i></a>
+                  </div>
+                </div>
+            </div>
+            <div className="project-container" data-aos="zoom-in-up">
+                <img className='special-case' src={github} alt="" />
+                <div className="name">Github Profile Search</div>
+                <div className="paragraph">Its a simple react application to search Github profile and view some basic details. It uses Github API and fetch profile data from github.
+                 </div>
+                <div className="icons">
+                  <div className="icon">
+                      <a target='_blank' href="https://github-profile-aakashsaini09.netlify.app/">
+                        <i className="fa-solid fa-eye" style={{color: "#ffffff"}}></i>
+                      </a>
+                  </div>
+                  <div className="icon">
+                      <a target='_blank' href="https://github.com/aakashsaini09/github-profile">
+                        <i className="fa-brands fa-github" style={{color: "#ffffff"}}></i>
+                      </a>
                   </div>
                 </div>
             </div>
