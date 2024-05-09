@@ -3,6 +3,7 @@ import '../Styles/Skills-Project.css'
 import tiktok from '../assets/tiktok.png'
 import todo from '../assets/todo.png'
 import weather from '../assets/weather.png'
+import stock from '../assets/stock.png'
 import portfolio from '../assets/portfolio.png'
 import github from '../assets/Screenshot 2024-03-30 102452.png'
 const Projects = () => {
@@ -13,6 +14,21 @@ const Projects = () => {
           <div className="heading"><span>Projects</span> Section</div>
         </div>
         <div className="project-section">
+        <div className="project-container" data-aos="zoom-in-up">
+                <img src={stock} alt="" />
+                <div className="name">Stock Management</div>
+                <div className="paragraph">
+                It's a Full-stack Web Application that seamlessly integrates React-JS, Node-JS, MongoDB, and Express-JS and manage user stock details. The design is elevated by the modern aesthetics of Tailwind CSS, ensuring sleek styling and enhanced user interaction.
+                </div>
+                <div className="icons" >
+                  <div className="icon">
+                      <a target='_blank' href="https://inventory-ochre.vercel.app/"><i className="fa-solid fa-eye" style={{color: "#ffffff"}}></i></a>
+                  </div>
+                  <div className="icon">
+                      <a target='_blank' href="https://github.com/aakashsaini09/stock"><i className="fa-brands fa-github" style={{color: "#ffffff"}}></i></a>
+                  </div>
+                </div>
+            </div>
             <div className="project-container" data-aos="zoom-in-up">
                 <img src={weather} alt="" />
                 <div className="name">Weather-App</div>
