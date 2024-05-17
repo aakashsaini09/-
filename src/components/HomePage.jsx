@@ -2,7 +2,7 @@ import React from 'react'
 import '../Styles/Home-About.css'
 import Typed from 'typed.js'
 import img from '../assets/img2.png'
-import resume from '../assets/Document from Aakash saini.pdf'
+import resume from '../assets/Resume1.pdf'
 const HomePage = () => {
 
   const el = React.useRef(null);
