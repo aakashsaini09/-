@@ -27,10 +27,10 @@ const Navbar = () => {
       </button>
     </div>
       <nav className={`mobile-nav ${isActive ? 'is-active' : ''}`}>
-          <li className='mobile-nav-li'><a href="#home">Home</a></li>
-          <li className='mobile-nav-li'><a href="#about">ABOUT</a></li>
-          <li className='mobile-nav-li'><a href="#contact">CONTACT</a></li>
-          <li className='mobile-nav-li'><a href="#skill-section">SKILLS</a></li>
+      <li className='mobile-nav-li' onClick={handleClick}><a href="#home">Home</a></li>
+          <li className='mobile-nav-li' onClick={handleClick}><a href="#about">ABOUT</a></li>
+          <li className='mobile-nav-li' onClick={handleClick}><a href="#contact">CONTACT</a></li>
+          <li className='mobile-nav-li' onClick={handleClick}><a href="#skill-section">SKILLS</a></li>
       </nav>
     </>
   )
