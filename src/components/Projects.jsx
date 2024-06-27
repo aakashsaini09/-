@@ -1,8 +1,7 @@
 import React from 'react'
 import '../Styles/Skills-Project.css'
-import tiktok from '../assets/tiktok.png'
+import quillvibes from '../assets/quillvibes.png'
 import todo from '../assets/todo.png'
-import weather from '../assets/weather.png'
 import stock from '../assets/stock.png'
 import portfolio from '../assets/portfolio.png'
 import github from '../assets/Screenshot 2024-03-30 102452.png'
@@ -13,6 +12,22 @@ const Projects = () => {
         <div className="project-header">
           <div className="heading"><span>Projects</span> Section</div>
         </div>
+            <div className="project-section">
+        <div className="project-container" data-aos="zoom-in-up">
+                <img src={quillvibes} alt="" />
+                <div className="name">QuillVibes</div>
+                <div className="paragraph">
+                QuillVibes is a sophisticated blog web application where users can share their thoughts and ideas seamlessly. It offers essential features such as blog updates and deletions, all wrapped in a user-friendly interface. The project is built using TypeScript, ReactJS, Tailwind CSS, and AWS-CloudFlare.
+                </div>
+                <div className="icons" >
+                  <div className="icon">
+                      <a target='_blank' href="https://quillvibes-aakashsaini09.netlify.app/"><i className="fa-solid fa-eye" style={{color: "#ffffff"}}></i></a>
+                  </div>
+                  <div className="icon">
+                      <a target='_blank' href="https://github.com/aakashsaini09/QuillVibes.git"><i className="fa-brands fa-github" style={{color: "#ffffff"}}></i></a>
+                  </div>
+                </div>
+            </div>
         <div className="project-section">
         <div className="project-container" data-aos="zoom-in-up">
                 <img src={stock} alt="" />
@@ -30,21 +45,6 @@ const Projects = () => {
                 </div>
             </div>
             <div className="project-container" data-aos="zoom-in-up">
-                <img src={weather} alt="" />
-                <div className="name">Weather-App</div>
-                <div className="paragraph">
-                  It's a web app to show the weather forecast details using OpenWeather API & here you can search weather details for any city in the world.<br /><br /><span>Tech Stack:</span> HTML, CSS, JAVASCRIPT, BOOTSTRAP.
-                </div>
-                <div className="icons" >
-                  <div className="icon">
-                      <a target='_blank' href="https://mausamupdates.netlify.app/"><i className="fa-solid fa-eye" style={{color: "#ffffff"}}></i></a>
-                  </div>
-                  <div className="icon">
-                      <a target='_blank' href="https://github.com/aakashsaini09/mausam"><i className="fa-brands fa-github" style={{color: "#ffffff"}}></i></a>
-                  </div>
-                </div>
-            </div>
-            <div className="project-container" data-aos="zoom-in-up">
                 <img className='special-case' src={github} alt="" />
                 <div className="name">Github Profile Search</div>
                 <div className="paragraph">Its a simple react application to search Github profile and view some basic details. It uses Github API and fetch profile data from github.<br /><br /><span>Tech Stack:</span>JAVASCRIPT, REACT-JS, TAILWIND-CSS.
@@ -57,25 +57,6 @@ const Projects = () => {
                   </div>
                   <div className="icon">
                       <a target='_blank' href="https://github.com/aakashsaini09/github-profile">
-                        <i className="fa-brands fa-github" style={{color: "#ffffff"}}></i>
-                      </a>
-                  </div>
-                </div>
-            </div>
-            <div className="project-container" data-aos="zoom-in-up">
-                <img className='special-case' src={tiktok} alt="" />
-                <div className="name">TIK-TOK-TAK</div>
-                <div className="paragraph">
-                This is a JavaScript game that you can play with your friend. It is a pure HTML, CSS and JavaScript website. I created this project in the first year of my college, so it has a very simple design.<br /><br /><span>Tech Stack:</span> HTML, CSS, JAVASCRIPT, BOOTSTRAP.
-                </div>
-                <div className="icons">
-                  <div className="icon">
-                      <a target='_blank' href="https://aakashsaini09.github.io/tik-tok-tak/">
-                        <i className="fa-solid fa-eye" style={{color: "#ffffff"}}></i>
-                      </a>
-                  </div>
-                  <div className="icon">
-                      <a target='_blank' href="https://github.com/aakashsaini09/tik-tok-tak">
                         <i className="fa-brands fa-github" style={{color: "#ffffff"}}></i>
                       </a>
                   </div>
