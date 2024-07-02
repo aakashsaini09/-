@@ -21,7 +21,7 @@ const Projects = () => {
             </div>
             <div className="icons" >
               <div className="icon">
-                <a target='_blank' href="https://quillvibes-aakashsaini09.netlify.app/"><i className="fa-solid fa-eye" style={{ color: "#ffffff" }}></i></a>
+                <a target='_blank' href="https://quill-vibes.vercel.app/"><i className="fa-solid fa-eye" style={{ color: "#ffffff" }}></i></a>
               </div>
               <div className="icon">
                 <a target='_blank' href="https://github.com/aakashsaini09/QuillVibes.git"><i className="fa-brands fa-github" style={{ color: "#ffffff" }}></i></a>
@@ -36,7 +36,7 @@ const Projects = () => {
               </div>
               <div className="icons" >
                 <div className="icon">
-                  <a target='_blank' href="https://inventory-ochre.vercel.app/"><i className="fa-solid fa-eye" style={{ color: "#ffffff" }}></i></a>
+                  <a target='_blank' href="https://stock-management-aakashsaini09.vercel.app/"><i className="fa-solid fa-eye" style={{ color: "#ffffff" }}></i></a>
                 </div>
                 <div className="icon">
                   <a target='_blank' href="https://github.com/aakashsaini09/stock"><i className="fa-brands fa-github" style={{ color: "#ffffff" }}></i></a>
