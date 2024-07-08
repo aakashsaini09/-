@@ -4,7 +4,7 @@ import quillvibes from '../assets/quillvibes.png'
 import todo from '../assets/todo.png'
 import stock from '../assets/stock.png'
 import portfolio from '../assets/portfolio.png'
-import github from '../assets/Screenshot 2024-03-30 102452.png'
+import github from '../assets/Screenshot 2024-07-08 203321.png'
 const Projects = () => {
   return (
     <>
