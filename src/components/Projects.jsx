@@ -17,7 +17,7 @@ const Projects = () => {
             <img src={quillvibes} alt="" />
             <div className="name">QuillVibes</div>
             <div className="paragraph">
-              QuillVibes is a sophisticated blog web application where users can share their thoughts and ideas seamlessly. It offers essential features such as blog updates and deletions, all wrapped in a user-friendly interface. The project is built using TypeScript, ReactJS, Tailwind CSS, and AWS-CloudFlare.
+              QuillVibes is a sophisticated blog web application where users can share their thoughts and ideas seamlessly. It offers essential features such as blog updates and deletions, all wrapped in a user-friendly interface.<br /><br /><span>Tech Stack:</span>TYPESCRIPT, REACT-JS, TAILWIND-CSS, AWS-CloudFlare.
             </div>
             <div className="icons" >
               <div className="icon">
@@ -32,7 +32,7 @@ const Projects = () => {
               <img src={stock} alt="" />
               <div className="name">Stock Management</div>
               <div className="paragraph">
-                It's a Full-stack Web Application that seamlessly integrates React-JS, Node-JS, MongoDB, and Express-JS and manage user stock details. The design is elevated by the modern aesthetics of Tailwind CSS, ensuring sleek styling and enhanced user interaction.
+                It's a Full-stack Web Application that seamlessly integrates React-JS, Node-JS, MongoDB, and Express-JS and manage user stock details. The design is elevated by the modern aesthetics of Tailwind CSS, ensuring sleek styling and enhanced user interaction.<br /><br /><span>Tech Stack:</span>JAVASCRIPT, REACT-JS, MONGO-DB, TAILWIND-CSS.
               </div>
               <div className="icons" >
                 <div className="icon">
@@ -46,7 +46,7 @@ const Projects = () => {
             <div className="project-container" data-aos="zoom-in-up">
               <img className='special-case' src={github} alt="" />
               <div className="name">Github Profile Search</div>
-              <div className="paragraph">Its a simple react application to search Github profile and view some basic details. It uses Github API and fetch profile data from github.<br /><br /><span>Tech Stack:</span>JAVASCRIPT, REACT-JS, TAILWIND-CSS.
+              <div className="paragraph">Its a simple react application to search Github profile and view some basic details. It uses Github API and fetch profile data from github.<br /><br /><span>Tech Stack:</span>TYPESCRIPT, REACT-JS, TAILWIND-CSS.
               </div>
               <div className="icons">
                 <div className="icon">
@@ -80,7 +80,7 @@ const Projects = () => {
               <img src={portfolio} alt="" />
               <div className="name">Portfolio</div>
               <div className="paragraph">
-                This is my new portfolio, which I recently made using React-JS. It is a private repository to protect the code. You can give me feedback about the website and other projects from the contact section that I have provided at the bottom of the website.
+                This is my new portfolio, which I recently made using React-JS. It is a private repository to protect the code. You can give me feedback about the website and other projects from the contact section that I have provided at the bottom of the website..<br /><br /><span>Tech Stack:</span>JAVASCRIPT, REACT-JS, TAILWIND-CSS.
               </div>
               <div className="icons">
                 <div className="icon">
