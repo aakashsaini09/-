@@ -2,6 +2,7 @@ import React from 'react'
 import '../Styles/Skills-Project.css'
 import quillvibes from '../assets/quillvibes.png'
 import todo from '../assets/todo.png'
+import coin from '../assets/coin.png'
 import stock from '../assets/stock.png'
 import portfolio from '../assets/portfolio.png'
 import github from '../assets/Screenshot 2024-07-08 203321.png'
@@ -25,6 +26,21 @@ const Projects = () => {
               </div>
               <div className="icon">
                 <a target='_blank' href="https://github.com/aakashsaini09/QuillVibes.git"><i className="fa-brands fa-github" style={{ color: "#ffffff" }}></i></a>
+              </div>
+            </div>
+          </div>
+           <div className="project-container" data-aos="zoom-in-up">
+            <img src={coin} alt="" />
+            <div className="name">Crypto-Monster</div>
+            <div className="paragraph">
+              Crypto tracking application that offers price updates & one-year data trends. Developed with React/TypeScript, Chart API, TailWind-CSS and more.
+              </div>
+            <div className="icons" >
+              <div className="icon">
+                <a target='_blank' href="https://coinmonster.netlify.app/"><i className="fa-solid fa-eye" style={{ color: "#ffffff" }}></i></a>
+              </div>
+              <div className="icon">
+                <a target='_blank' href="https://github.com/aakashsaini09/Crypto-Monster.git"><i className="fa-brands fa-github" style={{ color: "#ffffff" }}></i></a>
               </div>
             </div>
           </div>
