@@ -1,0 +1,271 @@
+@media screen and (max-width: 800px) {
+    #skill-section {
+        padding: 9vh 1px !important;
+    }
+
+    #skill-section .skill-header {
+        gap: 50px !important;
+    }
+
+    #skill-section .skill-header .skill-heading {
+        font-size: 40px !important;
+    }
+
+    #skill-section .skill-header .buttons button {
+        font-size: 13px !important;
+        margin: 0px 10px !important;
+    }
+    #skills {
+        font-size: 15px !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    .skill-container {
+        margin: 30px 0 !important;
+        gap: 25px !important;
+        margin-left: 40px !important;
+    }
+
+    /* *************************************project-section*********************************************************************** */
+    #project {
+        width: 100vw;
+        padding-top: 1vh;
+        padding-bottom: 15vh;
+    }
+    #project .project-header {
+        font-size: 43px !important;
+        padding-bottom: 50px !important;
+    }
+    .project-section {
+        display: flex !important;
+        margin: 0 10px !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding-left: 0px !important;
+        gap: 70px 0 !important;
+    }
+
+    .project-container {
+        height: 550px !important;
+        width: 98vw !important;
+        border-radius: 16px !important;
+    }
+    .project-container img {
+        width: 100% !important;
+    } 
+    .project-container .paragraph {
+        color: white;
+        font-size: 13px;
+        padding: 10px 20px !important;
+        min-height: 105px !important;
+        margin-top: 30px !important;
+        /* border: 2px solid white !important; */
+    }
+    
+    .project-container .paragraph span {
+        color: red;
+    }
+    
+    .project-container .icons {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 15px !important;
+    }
+
+
+
+
+    
+    .project-container .icons .icon {
+        height: 65px !important;
+        width: 65px !important;
+        border-radius: 50%;
+        border: 1px solid white;
+        overflow: hidden !important;
+    }
+    .project-container .icons .icon a i{
+        /* background-color: peru !important; */
+        display: flex;
+        height: 50px !important;
+        width: 50px !important;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px !important;
+        overflow: hidden;
+    }
+}
+
+#skill-section {
+    padding: 15vh 26vh;
+    background-color: #0f1624;
+    color: wheat;
+}
+
+#skills {
+    width: 100%;
+    font-size: 17px;
+    font-weight: 600;
+    display: grid;
+    min-height: 50vh;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.skill-container {
+    width: 130px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(13, 16, 23);
+    justify-content: center;
+    margin: 10px 0;
+    border-radius: 5px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.skill-container:hover {
+    background-color: black;
+}
+
+.skill-container img {
+    height: 70px;
+}
+
+#skill-section .skill-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 80px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#skill-section .skill-header .skill-heading {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+#skill-section .skill-header .buttons button {
+    font-size: 14px;
+    padding: 11px 28px;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    margin: 0px 18px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+}
+
+#skill-section .skill-header .buttons .selected {
+    background-color: red;
+}
+
+#skill-section .skill-header .skill-heading span {
+    color: #a600ff;
+}
+
+
+
+
+
+#project {
+    min-height: 100vh;
+    background-color: #151e32;
+    width: 100vw;
+    padding-top: 10vh;
+}
+
+#project .project-header {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 100px;
+}
+
+#project .project-header span {
+    color: #a600ff;
+}
+
+.project-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding-left: 110px;
+    margin: 0 120px;
+    gap: 70px;
+    overflow: hidden;
+    margin-bottom: 15vh;
+}
+
+.project-container {
+    height: 450px;
+    width: 350px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #0f1624;
+    overflow: hidden;
+}
+
+.project-container img {
+    padding: 15px;
+    width: 350px;
+    border-radius: 25px;
+}
+
+.project-container .special-case {
+    margin-bottom: 15px;
+}
+
+.project-container .name {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.project-container .paragraph {
+    color: white;
+    font-size: 13px;
+    padding: 5px 17px;
+}
+
+.project-container .paragraph span {
+    color: red;
+}
+
+.project-container .icons {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    /* background-color: blueviolet; */
+}
+
+.project-container .icons .icon {
+    font-size: 40px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.project-container .icons .icon a i{
+    font-size: 35px;
+}
+
+.project-container .icons .icon:hover {
+    background-color: #a600ff;
+}

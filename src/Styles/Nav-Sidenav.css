@@ -1,0 +1,130 @@
+.sidenav{
+    position: fixed;
+    height: 100vh;
+    width: 6vw;
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.sidenav .logos .icon{
+    cursor: pointer;
+}
+.navbar {
+    height: 10vh;
+    width: 99vw;
+    background-color: #0f1624;
+    color: white;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+    position: fixed;
+    z-index: 10;
+  }
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 20px;
+    width: 45px;
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+    background: none;
+    z-index: 3;
+    border: none;
+    margin-right: 20px;
+  }
+  .mobile-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 2;
+    background-color: #0f1624;
+    padding-top: 120px;
+    transition: 0.4s;
+  }
+.navbar .name{
+    display: flex;
+    font-size: 45px;
+    font-weight: 900;
+    margin-left: 30px;
+    position: relative;
+    align-items: center;
+}
+.navbar .name .aak{
+    color: white;
+}
+.navbar .name .ash{
+    color: #a600ff;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar nav ul{
+    gap: 67px;
+    margin-right: 80px;
+}
+.navbar nav ul li a{
+    cursor: pointer;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+}
+.navbar nav ul li a:hover{
+    color: #a600ff;
+}
+
+.hamburger .bar, .hamburger:after, .hamburger:before{
+    content: '';
+    width: 100%;
+    display: block;
+    height: 5px;
+    background-color: rgb(255, 253, 253);
+    margin: 6px 0px;
+    transition: 0.4s;
+    /* overflow: hidden; */
+}
+.hamburger.is-active:before{
+    transform: rotate(-45deg) translate(-8px, 6px);
+}
+.hamburger.is-active:after{
+    transform: rotate(45deg) translate(-9px, -8px);
+}
+.hamburger.is-active .bar{
+    opacity: 0;
+}
+.mobile-nav .mobile-nav-li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 16px;
+    padding: 12px 16px;
+    background-color: blueviolet;
+    color: white;
+}
+.mobile-nav.is-active{
+    left: 0;
+}
+@media screen and (max-width: 800px)
+{
+    .navbar{
+        width: 100%;
+        min-height: 10vh !important;
+    }
+    .first-navbar{
+        display: none;
+    }
+    .sidenav{
+        display: none;
+    }
+}
+@media (min-width: 768px){
+    .mobile-nav{
+        display: none;
+    }
+    .hamburger{
+        display: none;
+    }
+}
